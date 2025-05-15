@@ -1,0 +1,19 @@
+.loginButton {
+  background: var(--button-gradient);
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  /* transition: opacity 0.3s ease, transform 0.2s ease; */
+}
+
+.loginButton:hover {
+  /* opacity: 0.9; */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  color: white;
+}
+.formCheck {
+  accent-color: var(--checkbox-color);
+}

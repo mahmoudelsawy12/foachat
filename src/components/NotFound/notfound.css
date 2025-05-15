@@ -1,0 +1,11 @@
+.not-found {
+  background: var(--home-button-gradient);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3 ease;
+}
+.not-found:hover {
+  background: var(--home-button-gradient-hover);
+}

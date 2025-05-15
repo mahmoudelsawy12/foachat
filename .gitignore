@@ -1,0 +1,31 @@
+# === FRONTEND (React) ===
+node_modules/
+dist/
+.vite/
+.env
+*.log
+
+# === PYTHON BACKEND ===
+backend/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === DATABASE FILES ===
+*.sqlite3
+*.db
+users
+sessions
+conversations
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === IDE/EDITOR FILES ===
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,55 @@
+.glass-card {
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(10px);
+  /* box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.4); */
+  box-shadow: var(--card-shadow);
+}
+
+.text {
+  color: var(--team-text);
+}
+.quote {
+  color: var(--quote-color);
+}
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo-container {
+  flex: 0 0 200px; /* fixed width but allows wrapping */
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.text-container {
+  flex: 1; /* takes up remaining space */
+  min-width: 250px;
+}
+
+.CircleAnimation {
+  width: 30%;
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  animation: ball 1s ease-out forwards;
+  z-index: -1;
+}
+
+@keyframes ball {
+  0% {
+    transform: translateX(-5vw) translateY(31vh) scale(1.2);
+  }
+
+  100% {
+    transform: translateX(70vw) translateY(17vh) scale(1.6);
+  }
+}

@@ -1,0 +1,46 @@
+.contentTitle span {
+  background: var(--title-gradient);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.contentDesc {
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 10px auto;
+}
+
+/* sideBar */
+.sideBar {
+  background-color: var(--sidebar-color);
+}
+.chatPlus {
+  background: var(--login-color);
+  border: none;
+  border-radius: 12px;
+  padding: 7px 12px;
+}
+.chatPlus:hover {
+  background: var(--login-hover);
+}
+.sidebarText {
+  color: var(--sidebar-text);
+}
+.scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+.hoverEffect {
+  transition: background-color 0.3s ease;
+}
+
+.hoverEffect:hover {
+  background-color: var(--conv-hover);
+  cursor: pointer;
+}
+
+.selected {
+  background-color: var(--conv-hover) !important;
+}
+.guest {
+  color: var(--guest-color);
+}

@@ -1,0 +1,14 @@
+.resetButton {
+  background: var(--button-gradient);
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.resetButton:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  color: white;
+}

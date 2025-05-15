@@ -1,0 +1,31 @@
+.h2 {
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 15px;
+  letter-spacing: 5px;
+}
+.desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.homeButton {
+  background: var(--home-button-gradient);
+  color: var(--home-button-text);
+  padding: 5px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.homeButton:hover {
+  background: var(--home-button-gradient-hover);
+  color: var(--home-button-text);
+  transition: background 0.3s ease, transform 0.3s ease;
+  transform: translateY(-2px);
+}
