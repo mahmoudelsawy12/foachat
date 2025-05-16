@@ -10,7 +10,6 @@ import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import NotFound from "./components/NotFound/NotFound";
 
 const routes = createBrowserRouter([
   { path: "/", element: <Home /> },
